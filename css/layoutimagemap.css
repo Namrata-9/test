@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 60%;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid black;
+}
+.main-header-div
+{
+    width: 100%;
+    height: 60px;
+}
+.main-header-div .logo
+{
+    width: 37%;
+    height: 60px;
+    background-image: linear-gradient(#0F2027,#203A43,#2C5364);
+    float: left;
+}
+.logo h1
+{
+    color: white;
+    padding: 10px;
+}
+.main-header-div .menu
+{
+    width: 60%;
+    height: 60px;
+    background-image: linear-gradient(#333333,#dd1818);
+    float:right;
+    padding-top: 20px;
+    
+}
+.menu a
+{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.slider
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.slider img
+{
+    width: 100%;
+    height: 100%;
+}
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer
+{
+    width: 100;
+    height: 60px;
+    background-image: linear-gradient(#000000,#0f9b0f);
+    margin-top: 10px;
+}
+.footer h3
+{
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
